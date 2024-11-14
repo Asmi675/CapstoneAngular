@@ -1,0 +1,29 @@
+/* Sidebar style */
+.sidenav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  background-color: #343a40; /* Dark background for sidenav */
+  padding-top: 20px;
+  transition: 0.3s;
+  z-index: 1050; /* Ensure the sidenav is above the content */
+}
+
+.sidenav ul {
+  padding-left: 0;
+}
+
+.sidenav a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  background-color: #575757;
+}
